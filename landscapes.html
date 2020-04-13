@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- head-->
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="minimum-scale=1.0, maximum-scale=1.0,
+  	width=device-width, user-scalable=no">
+  	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Andrea Di Fonzo - Landscape Phototgraphy</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+  <body>
+
+<!-- content-->
+
+<div class="main_page_landscapes" id="cont_mast">
+
+  <div class="header_landscapes" id="myHeader">
+        <a style="display:block" href="index.html" id="DiFo_Landscape"></a>
+        <div id="Gallery_landscape"> <a href="landscapes.html">GALLERY</a></div>
+        <div id="About_landscape"> <a href="about.html">ABOUT</a> </div>
+        <div id="bicon_landscape" onclick="myFunction2()"><i class="fa fa-bars" style="font-size:20px;color:#878f99"></i></div>
+  </div>
+
+  <div id="new_menu_landscape">
+    <a id="Home_nm" style="display:block" href="index.html">HOME</a>
+    <div id="Landscapes_nm"> <a href="landscapes.html">GALLERY</a></div>
+    <div id="About_nm"> <a href="about.html">ABOUT</a> </div>
+  </div>
+
+
+  <div class="pictures">
+    <div id="img01" title="Sunrise from the Lacs des Chéserys - France "; class="gallery__img" onclick="Enlarge(img01); currentSlide(1)"></div>
+    <div id="img02" title="Sunrise from the Lac Blanc - France"; class="gallery__img" onclick="Enlarge(img02); currentSlide(2)"></div>
+    <div id="img03" title="Matterhorn from Zermatt - Switzerland"; class="gallery__img" onclick="Enlarge(img03); currentSlide(3)"></div>
+    <div id="img04" title="Alps and Mer de Glace - France"; class="gallery__img" onclick="Enlarge(img04); currentSlide(4)"></div>
+    <div id="img05" title="Sun after the storm - Saleve - France"; class="gallery__img" onclick="Enlarge(img05); currentSlide(5)"></div>
+    <div id="img06" title="Sunset on the Apls from Samoëns - France"; class="gallery__img" onclick="Enlarge(img06); currentSlide(6)"></div>
+    <div id="img07" title="Torres del Paine - Chile"; class="gallery__img" onclick="Enlarge(img07); currentSlide(7)"></div>
+    <div id="img08" title="Patagonia - Chile"; class="gallery__img" onclick="Enlarge(img08); currentSlide(8)"></div>
+    <div id="img09" title="Mont Blanc - Sunset from the Lac Blanc - France"; class="gallery__img" onclick="Enlarge(img09); currentSlide(9)"></div>
+    <div id="img10" title="Mont Blanc from an airplane to Italy"; class="gallery__img" onclick="Enlarge(img10); currentSlide(10)"></div>
+    <div id="img11" title="The magic hour - Sunset on the Apls from Samoëns - France"; class="gallery__img" onclick="Enlarge(img11); currentSlide(11)"></div>
+    <div id="img12" title="Sunrise on the Alps from the Jura - France"; class="gallery__img" onclick="Enlarge(img12); currentSlide(12)"></div>
+    <div id="img13" title="On the top - from Aiguille Du Midi - France"; class="gallery__img" onclick="Enlarge(img13); currentSlide(13)"></div>
+    <div id="img14" title="Glacier de Bionnassay - Chamonix Valley - France"; class="gallery__img" onclick="Enlarge(img14); currentSlide(14)"></div>
+    <div id="img15" title="The two wordls: Alps and Geneva Lake - Jura - France"; class="gallery__img" onclick="Enlarge(img15); currentSlide(15)"></div>
+    <div id="img16" title="Mont Blanc"; class="gallery__img" onclick="Enlarge(img16); currentSlide(16)"></div>
+    <div id="img17" title="Árbol de Piedra - Bolivia"; class="gallery__img" onclick="Enlarge(img17); currentSlide(17)"></div>
+    <div id="img18" title="Matterhorn from Zermatt - Switzerland"; class="gallery__img" onclick="Enlarge(img18); currentSlide(18)"></div>
+    <div id="img19" title="The Cliff of Moher - Ireland"; class="gallery__img" onclick="Enlarge(img19); currentSlide(19)"></div>
+    <div id="img20" title="Atlantic Way - Ireland"; class="gallery__img" onclick="Enlarge(img20); currentSlide(20)"></div>
+    <div id="img21" title="Cliffs - East Iceland"; class="gallery__img" onclick="Enlarge(img21); currentSlide(21)"></div>
+    <div id="img22" title="Cloud streets - Bolivia"; class="gallery__img" onclick="Enlarge(img22); currentSlide(22)"></div>
+    <div id="img23" title="Connemara - Ireland"; class="gallery__img" onclick="Enlarge(img23); currentSlide(23)"></div>
+    <div id="img24" title="Lavanda - Provence"; class="gallery__img" onclick="Enlarge(img24); currentSlide(24)"></div>
+    <div id="img25" title="Sunset on the Majella - Abruzzo - Italy"; class="gallery__img" onclick="Enlarge(img25); currentSlide(25)"></div>
+    <div id="img26" title="Machu Picchu Valley - Peru"; class="gallery__img" onclick="Enlarge(img26); currentSlide(26)"></div>
+    <div id="img27" title="White Lagooon - Bolivia"; class="gallery__img" onclick="Enlarge(img27); currentSlide(27)"></div>
+    <div id="img28" title="Ireland"; class="gallery__img" onclick="Enlarge(img28); currentSlide(28)"></div>
+    <div id="img29" title="Bird above the Jökulsárlón Lake - Iceland"; class="gallery__img" onclick="Enlarge(img29); currentSlide(29)"></div>
+    <div id="img30" title="Moon Valley - Atacama Desert - Chile"; class="gallery__img" onclick="Enlarge(img30); currentSlide(30)"></div>
+    <div id="img31" title="Salar de Uyuni - Bolivia"; class="gallery__img" onclick="Enlarge(img31); currentSlide(31)"></div>
+    <div id="img32" title="Sunset on the Majella and Gran Sasso - Abruzzo - Italy"; class="gallery__img" onclick="Enlarge(img32); currentSlide(32)"></div>
+    <div id="img33" title="Jura - France"; class="gallery__img" onclick="Enlarge(img33); currentSlide(33)"></div>
+    <div id="img34" title="Laguna Hedionda - Boliva"; class="gallery__img" onclick="Enlarge(img34); currentSlide(34)"></div>
+    <div id="img35" title="Paragliding after a storm - Saleve - France"; class="gallery__img" onclick="Enlarge(img35); currentSlide(35)"></div>
+    <div id="img36" title="Orange Lighthouse - Iceland"; class="gallery__img" onclick="Enlarge(img36); currentSlide(36)"></div>
+    <div id="img37" title="Fjord - East Iceland"; class="gallery__img" onclick="Enlarge(img37); currentSlide(37)"></div>
+    <div id="img38" title="Landmannalaugar - Iceland"; class="gallery__img" onclick="Enlarge(img38); currentSlide(38)"></div>
+    <div id="img39" title="Lago Santo - North of Italy"; class="gallery__img" onclick="Enlarge(img39); currentSlide(39)"></div>
+  </div>
+
+  <div id="myModal" class="modal" >
+      <span id="x" class="close" onclick ="close_window ()";>&times;</span>
+      <div id="Mimg01" class="modal-content" ontouchstart="touchStart(event,'Mimg01');"  ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);"></div>
+      <div id="caption1"></div>
+      <a id="sleft" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a id="sright" class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+    <div class="footer_landscapes">
+      <div id="Copyright_la"> ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT © BY ANDREA DI FONZO © 2020 <br>
+      Andrea Di Fonzo is a landscape photographer based in Geneva, Switzerland</div>
+    </div>
+
+
+</div>
+
+<!-- script link-->
+
+  <script type="text/javascript" src="script.js"></script>
+
+  </body>
+
+</html>
