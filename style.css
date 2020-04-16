@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 
 /* BIG SCREEN  */
-@media screen and (min-width: 1121px) {
+@media screen and (min-width: 801px) {
 
 /* general styling */
 * {box-sizing: border-box;}
@@ -662,7 +662,7 @@ a {text-decoration: none;}
 
 
 /* small screen */
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 800px) {
 
 /* general styling */
 * {box-sizing: border-box;}
@@ -850,6 +850,7 @@ a {text-decoration: none;}
   margin-top: 15px;
 
   display: grid;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat (39, 1fr);
   grid-gap: 3px}
 
@@ -864,196 +865,274 @@ a {text-decoration: none;}
 #img01 {
   grid-row-start: 1;
   grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("alpssunset.jpg");}
 
 #img02 {
   grid-row-start: 2;
   grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("lacblanc.jpg");}
 
 #img03 {
   grid-row-start: 3;
   grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("matt.jpg");}
 
 #img04 {
   grid-row-start: 4;
   grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("mareghiaccio.jpg");}
 
 #img06 {
   grid-row-start: 5;
   grid-row-end:6;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("alps2.jpg");}
 
 #img23 {
   grid-row-start: 6;
   grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("ireland2.jpg");}
 
 #img11 {
   grid-row-start: 7;
   grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("alps rose.jpg");}
 
 #img13 {
   grid-row-start: 8;
   grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("aguille.jpg");}
 
 #img14 {
   grid-row-start: 9;
   grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("chamonix.jpg");}
 
 #img19 {
   grid-row-start: 10;
   grid-row-end: 11;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("cliff.jpg");}
 
 #img20 {
   grid-row-start: 11;
   grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("ireland.jpg");}
 
 #img21 {
   grid-row-start: 12;
   grid-row-end: 13;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("iceland4.jpg");}
 
 #img25 {
   grid-row-start: 13;
   grid-row-end: 14;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("colle.jpg");}
 
 #img26 {
   grid-row-start: 14;
   grid-row-end: 15;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("matchu.jpg");}
 
 #img24 {
   grid-row-start: 15;
   grid-row-end: 16;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("lavanda.jpg");}
 
 #img27 {
   grid-row-start: 16;
   grid-row-end: 17;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("bolivia4.jpg");}
 
 #img38 {
   grid-row-start: 17;
   grid-row-end: 18;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("iceland2.jpg");}
 
 #img39 {
   grid-row-start: 18;
   grid-row-end: 19;
+  grid-column-start: 1;
+  grid-column-end:2;
     background-image: url("forest.jpg");}
 
 #img36 {
   grid-row-start: 19;
   grid-row-end: 20;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("iceland.jpg"); }
 
 #img35 {
   grid-row-start: 20;
   grid-row-end: 21;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("saleve2.jpg");}
 
 #img30 {
   grid-row-start: 21;
   grid-row-end: 22;
+  grid-column-start: 1;
+  grid-column-end:2;
     background-image: url("saltdesert.jpg");}
 
 #img08 {
   grid-row-start: 22;
   grid-row-end: 23;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("patagonia.jpg");}
 
 #img16 {
   grid-row-start: 23;
   grid-row-end: 24;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("mb.jpg");}
 
 #img34 {
   grid-row-start: 24;
   grid-row-end: 25;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("bolivia3.jpg");}
 
 #img31 {
   grid-row-start: 25;
   grid-row-end: 26;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("bolivia5.jpg");}
 
 #img33 {
   grid-row-start: 26;
   grid-row-end: 27;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("snow.jpg");}
 
 #img09 {
   grid-row-start: 27;
   grid-row-end: 28;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("alps.jpg");}
 
 #img15 {
   grid-row-start: 28;
   grid-row-end: 29;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("geneve.jpg");}
 
 #img32 {
   grid-row-start: 29;
   grid-row-end: 30;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("caroso.jpg");}
 
 #img29 {
   grid-row-start: 30;
   grid-row-end: 31;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("bird.jpg");}
 
 #img28 {
   grid-row-start: 31;
   grid-row-end: 32;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("molo.jpg");}
 
 #img05 {
   grid-row-start: 32;
   grid-row-end: 33;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("saleve.jpg");}
 
 #img10 {
   grid-row-start: 33;
   grid-row-end: 34;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("alps3.jpg");}
 
 #img37 {
   grid-row-start: 34;
   grid-row-end: 35;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("ireland3.jpg");}
 
 #img12 {
   grid-row-start: 35;
   grid-row-end: 36;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("geneve2.jpg");}
 
 #img22 {
   grid-row-start: 36;
   grid-row-end: 37;
+  grid-column-start: 1;
+  grid-column-end:2;
   background-image: url("bolivia.jpg");}
 
 #img17 {
   grid-row-start: 37;
   grid-row-end: 38;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("bolivia2.jpg");}
 
 #img07 {
   grid-row-start: 38;
   grid-row-end: 39;
+  grid-column-start: 1;
+  grid-column-end:2;
 background-image: url("torres.jpg");}
 
 #img18 {
   grid-row-start: 39;
   grid-row-end: 40;
+  grid-column-start: 1;
+  grid-column-end:2;
     background-image: url("matt2.jpg");}
 
 .footer_landscapes  {
