@@ -220,16 +220,20 @@ function processingRoutine() {
 
 // sticky header_landscapes
 
-window.onscroll = function() {myFunction3()};
+window.onscroll = () => {
+    const header = document.getElementById("myHeader");
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+    let sticky;
+    if (header) {
+        sticky = header.offsetTop;
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+}
 
-function myFunction3() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");}}
 
 
 // mobile menu script
@@ -242,8 +246,8 @@ function myFunction() {
        x.style.display = "block";}}
 
 function myFunction2() {
-  var x = document.getElementById("new_menu_landscape");
-  if (x.style.display === "block") {
-      x.style.display = "none"
-  } else {
-      x.style.display = "block";}}
+    var x = document.getElementById("new_menu_landscape");
+    if (x.style.display === "block") {
+        x.style.display = "none"
+    } else {
+        x.style.display = "block";}}
